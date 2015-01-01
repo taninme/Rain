@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3AA42341A55C53500E043CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA42331A55C53500E043CC /* AppDelegate.swift */; };
+		F3AA42361A55C53500E043CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA42351A55C53500E043CC /* ViewController.swift */; };
+		F3AA42391A55C53500E043CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3AA42371A55C53500E043CC /* Main.storyboard */; };
+		F3AA423B1A55C53500E043CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3AA423A1A55C53500E043CC /* Images.xcassets */; };
+		F3AA423E1A55C53500E043CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3AA423C1A55C53500E043CC /* LaunchScreen.xib */; };
+		F3AA424A1A55C53500E043CC /* RainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA42491A55C53500E043CC /* RainTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3AA42441A55C53500E043CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3AA42261A55C53500E043CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3AA422D1A55C53500E043CC;
+			remoteInfo = Rain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3AA422E1A55C53500E043CC /* Rain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AA42321A55C53500E043CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3AA42331A55C53500E043CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3AA42351A55C53500E043CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3AA42381A55C53500E043CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3AA423A1A55C53500E043CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3AA423D1A55C53500E043CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F3AA42431A55C53500E043CC /* RainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AA42481A55C53500E043CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3AA42491A55C53500E043CC /* RainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3AA422B1A55C53500E043CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AA42401A55C53500E043CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3AA42251A55C53500E043CC = {
+			isa = PBXGroup;
+			children = (
+				F3AA42301A55C53500E043CC /* Rain */,
+				F3AA42461A55C53500E043CC /* RainTests */,
+				F3AA422F1A55C53500E043CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3AA422F1A55C53500E043CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA422E1A55C53500E043CC /* Rain.app */,
+				F3AA42431A55C53500E043CC /* RainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3AA42301A55C53500E043CC /* Rain */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA42331A55C53500E043CC /* AppDelegate.swift */,
+				F3AA42351A55C53500E043CC /* ViewController.swift */,
+				F3AA42371A55C53500E043CC /* Main.storyboard */,
+				F3AA423A1A55C53500E043CC /* Images.xcassets */,
+				F3AA423C1A55C53500E043CC /* LaunchScreen.xib */,
+				F3AA42311A55C53500E043CC /* Supporting Files */,
+			);
+			path = Rain;
+			sourceTree = "<group>";
+		};
+		F3AA42311A55C53500E043CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA42321A55C53500E043CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3AA42461A55C53500E043CC /* RainTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA42491A55C53500E043CC /* RainTests.swift */,
+				F3AA42471A55C53500E043CC /* Supporting Files */,
+			);
+			path = RainTests;
+			sourceTree = "<group>";
+		};
+		F3AA42471A55C53500E043CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA42481A55C53500E043CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3AA422D1A55C53500E043CC /* Rain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3AA424D1A55C53500E043CC /* Build configuration list for PBXNativeTarget "Rain" */;
+			buildPhases = (
+				F3AA422A1A55C53500E043CC /* Sources */,
+				F3AA422B1A55C53500E043CC /* Frameworks */,
+				F3AA422C1A55C53500E043CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rain;
+			productName = Rain;
+			productReference = F3AA422E1A55C53500E043CC /* Rain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3AA42421A55C53500E043CC /* RainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3AA42501A55C53500E043CC /* Build configuration list for PBXNativeTarget "RainTests" */;
+			buildPhases = (
+				F3AA423F1A55C53500E043CC /* Sources */,
+				F3AA42401A55C53500E043CC /* Frameworks */,
+				F3AA42411A55C53500E043CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3AA42451A55C53500E043CC /* PBXTargetDependency */,
+			);
+			name = RainTests;
+			productName = RainTests;
+			productReference = F3AA42431A55C53500E043CC /* RainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3AA42261A55C53500E043CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ferdous Ahmed";
+				TargetAttributes = {
+					F3AA422D1A55C53500E043CC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F3AA42421A55C53500E043CC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F3AA422D1A55C53500E043CC;
+					};
+				};
+			};
+			buildConfigurationList = F3AA42291A55C53500E043CC /* Build configuration list for PBXProject "Rain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3AA42251A55C53500E043CC;
+			productRefGroup = F3AA422F1A55C53500E043CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3AA422D1A55C53500E043CC /* Rain */,
+				F3AA42421A55C53500E043CC /* RainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3AA422C1A55C53500E043CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AA42391A55C53500E043CC /* Main.storyboard in Resources */,
+				F3AA423E1A55C53500E043CC /* LaunchScreen.xib in Resources */,
+				F3AA423B1A55C53500E043CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AA42411A55C53500E043CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3AA422A1A55C53500E043CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AA42361A55C53500E043CC /* ViewController.swift in Sources */,
+				F3AA42341A55C53500E043CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AA423F1A55C53500E043CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AA424A1A55C53500E043CC /* RainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3AA42451A55C53500E043CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3AA422D1A55C53500E043CC /* Rain */;
+			targetProxy = F3AA42441A55C53500E043CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3AA42371A55C53500E043CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3AA42381A55C53500E043CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3AA423C1A55C53500E043CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3AA423D1A55C53500E043CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3AA424B1A55C53500E043CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3AA424C1A55C53500E043CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3AA424E1A55C53500E043CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3AA424F1A55C53500E043CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3AA42511A55C53500E043CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rain.app/Rain";
+			};
+			name = Debug;
+		};
+		F3AA42521A55C53500E043CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rain.app/Rain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3AA42291A55C53500E043CC /* Build configuration list for PBXProject "Rain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3AA424B1A55C53500E043CC /* Debug */,
+				F3AA424C1A55C53500E043CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3AA424D1A55C53500E043CC /* Build configuration list for PBXNativeTarget "Rain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3AA424E1A55C53500E043CC /* Debug */,
+				F3AA424F1A55C53500E043CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3AA42501A55C53500E043CC /* Build configuration list for PBXNativeTarget "RainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3AA42511A55C53500E043CC /* Debug */,
+				F3AA42521A55C53500E043CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3AA42261A55C53500E043CC /* Project object */;
+}

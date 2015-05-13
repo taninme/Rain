@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet var stopAudio: UIButton!
+    
+
+    
+    var audioPlayer:AVAudioPlayer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if var filePath = NSBundle.mainBundle().pathForResource("Rain1", ofType: "mp3")
+        {
+            var fileUrl = NSURL.fileURLWithPath(filePath)
+            audioPlayer = AVAudioPlayer(contentsOfURL: fileUrl, error: nil)
+            audioPlayer.enableRate = true
+            
+        }
+        else{
+            println("file path not found")}
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +39,15 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func Rain1(sender: UIButton) {
+        audioPlayer.stop()
+        audioPlayer.play()
+    }
+    
+    @IBAction func stopButton(sender: UIButton) {
+        audioPlayer.stop()
+        
+    }
+    
 }
 

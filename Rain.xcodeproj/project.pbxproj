@@ -13,6 +13,13 @@
 		F3AA423B1A55C53500E043CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3AA423A1A55C53500E043CC /* Images.xcassets */; };
 		F3AA423E1A55C53500E043CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3AA423C1A55C53500E043CC /* LaunchScreen.xib */; };
 		F3AA424A1A55C53500E043CC /* RainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA42491A55C53500E043CC /* RainTests.swift */; };
+		F3AA42541A55CA7E00E043CC /* Rain1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3AA42531A55CA7E00E043CC /* Rain1.mp3 */; };
+		F3AA42581A56008B00E043CC /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3AA42571A56008B00E043CC /* background.jpg */; };
+		F3AA42591A56008B00E043CC /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3AA42571A56008B00E043CC /* background.jpg */; };
+		F3AA425B1A56212D00E043CC /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = F3AA425A1A56212D00E043CC /* background1.png */; };
+		F3AA425C1A56212D00E043CC /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = F3AA425A1A56212D00E043CC /* background1.png */; };
+		F3AA425E1A5628E700E043CC /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = F3AA425D1A5628E700E043CC /* background2.png */; };
+		F3AA425F1A5628E700E043CC /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = F3AA425D1A5628E700E043CC /* background2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,10 @@
 		F3AA42431A55C53500E043CC /* RainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AA42481A55C53500E043CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3AA42491A55C53500E043CC /* RainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainTests.swift; sourceTree = "<group>"; };
+		F3AA42531A55CA7E00E043CC /* Rain1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rain1.mp3; sourceTree = "<group>"; };
+		F3AA42571A56008B00E043CC /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = RainTests/background.jpg; sourceTree = SOURCE_ROOT; };
+		F3AA425A1A56212D00E043CC /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		F3AA425D1A5628E700E043CC /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +101,10 @@
 		F3AA42311A55C53500E043CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3AA42531A55CA7E00E043CC /* Rain1.mp3 */,
+				F3AA42571A56008B00E043CC /* background.jpg */,
+				F3AA425D1A5628E700E043CC /* background2.png */,
+				F3AA425A1A56212D00E043CC /* background1.png */,
 				F3AA42321A55C53500E043CC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +208,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3AA42391A55C53500E043CC /* Main.storyboard in Resources */,
+				F3AA425B1A56212D00E043CC /* background1.png in Resources */,
+				F3AA425E1A5628E700E043CC /* background2.png in Resources */,
+				F3AA42581A56008B00E043CC /* background.jpg in Resources */,
 				F3AA423E1A55C53500E043CC /* LaunchScreen.xib in Resources */,
+				F3AA42541A55CA7E00E043CC /* Rain1.mp3 in Resources */,
 				F3AA423B1A55C53500E043CC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +221,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AA42591A56008B00E043CC /* background.jpg in Resources */,
+				F3AA425F1A5628E700E043CC /* background2.png in Resources */,
+				F3AA425C1A56212D00E043CC /* background1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
